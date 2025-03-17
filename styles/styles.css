@@ -1,5 +1,5 @@
 nav {
-    background-color: darkblue;
+    background-color: rgb(82, 82, 157);
     padding: 10px;
 }
 
@@ -21,6 +21,29 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+p {padding: 0;}
+main {
+    max-width: 840px;
+}
+aside{
+    width: 15rem;
+    margin: 1rem;
+    border: 3px solid navy;
+    padding: 1rem;
+    background-color: brown;
+    color: tan;
+}
+aside img {
+    width: 200px;
+    height: auto;
+
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+footer {
+    margin-top: 10px;
+    border-top: 3px dotted black;
+    text-align: center;
 }
