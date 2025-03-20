@@ -1,49 +1,59 @@
+:root {
+    --background-border-color: navy;
+    --nav-aside-color: saddlebrown;
+    --padding: 5px;
+    --nav-padding: 15px;
+    --img-width: 150px;
+    --img-height: auto;
+}
+
 nav {
-    background-color: rgb(82, 82, 157);
-    padding: 10px;
+    background-color: tan;
+    padding: var(--nav-padding);
 }
 
 nav a {
-    color: white;
+    color: var(--nav-aside-color);
     display: block;
-    padding: 20px;
+    padding: var(--nav-padding);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--background-border-color);
 }
 
 img {
-    width: 150px;
-    height: auto;
+    width: var(--img-width);
+    height: var(--img-height);
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--padding);
+    box-shadow: 0 0 30px rgb(128, 107, 107);
 }
 
 p {padding: 0;}
+
 main {
     max-width: 840px;
 }
 aside{
     width: 15rem;
     margin: 1rem;
-    border: 3px solid navy;
-    padding: 1rem;
-    background-color: brown;
+    border: 6px dotted;
+    padding: var(--padding);
+    background-color: var(--nav-aside-color);
     color: tan;
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--img-height);
 
 }
 main img {
-    width: 150px;
-    height: auto;
+    width: var(--img-width);
+    height: var(--img-height);
 }
 footer {
     margin-top: 10px;
-    border-top: 3px dotted black;
+    border-top: 3px dotted saddlebrown;
     text-align: center;
 }
