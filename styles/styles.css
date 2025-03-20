@@ -30,12 +30,15 @@ img {
     box-shadow: 0 0 30px rgb(128, 107, 107);
 }
 
-p {padding: 0;}
+p {
+    padding: 0;
+}
 
 main {
     max-width: 840px;
 }
-aside{
+
+aside {
     width: 15rem;
     margin: 1rem;
     border: 6px dotted;
@@ -43,15 +46,18 @@ aside{
     background-color: var(--nav-aside-color);
     color: tan;
 }
+
 aside img {
     width: 200px;
     height: var(--img-height);
 
 }
+
 main img {
     width: var(--img-width);
     height: var(--img-height);
 }
+
 footer {
     margin-top: 10px;
     border-top: 3px dotted saddlebrown;
