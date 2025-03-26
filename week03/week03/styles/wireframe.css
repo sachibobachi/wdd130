@@ -1,0 +1,8 @@
+:root {
+    --primary-color: 86B3EE;
+    --secondary-color: F6D785;
+    --accent1-color: 5B3D1E;
+    --accent2-color: 90903E;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: Tinos, Yrsa;}
