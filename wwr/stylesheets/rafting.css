@@ -20,89 +20,9 @@ h6 {
 }
 
 
-p {
-    padding: 0;
-    color: var(--accent1-color);
-}
-
 .hero h1 {
     color: white;
     background-color: var(--accent1-color);
 }
 
-h2 {
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
-    opacity: 60%;
 
-}
-.hero {
-    position: absolute;
-}
-
-article p {
-    width: 75%;
-    position: relative;
-    font-size: 112%;
-    height: 150px
-}
-
-.hero article img {
-    width: 150px;
-    right: 2px;
-    height: auto;
-    float: right;
-}
-
-
-.adventure img {
-    position: relative;
-    display: flex;  
-    right: 30px;
-    border: 5rem;
-}
-
-.hero img {
-    width: 80%;
-    display: block;
-    height: auto;
-    margin-left: 100px;
-    border-radius: 5%;
-}
-
-.hero h1 {
-    width: 80%;
-    top: 90px;
-    right: -100px;
-    text-align: center;
-    position: relative;
-    opacity: 70%;
-}
-
-article {
-    width: 80%;
-    top: -350px;
-    right: -100px;
-    text-align: center;
-    position: relative;
-    opacity: 95%;
-    background-color: #86b3eea3;
-}
-
-
-h2 img {
-    float: left;
-}
-
-
-footer {
-    border-top: 5px dotted #BFBEDD;
-    padding: 1rem;
-}
-
-.socialmedia img {
-    width: 10%;
-}
-.socialmedia a {
-    text-decoration: none;
-}
