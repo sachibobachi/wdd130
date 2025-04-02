@@ -28,6 +28,12 @@ article p {
     height: auto;
     float: right;
 }
+.hero article {
+    width: 150px;
+    right: 2px;
+    height: auto;
+    position: absolute;
+}
 
 
 .adventure img {
@@ -59,7 +65,6 @@ article {
     top: -350px;
     right: -100px;
     text-align: center;
-    position: relative;
     opacity: 95%;
     background-color: #86b3eea3;
 }
