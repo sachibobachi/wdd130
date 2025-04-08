@@ -25,10 +25,32 @@ h6 {
     font-weight: 300;
     font-style: normal;
   }
+  header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr;
+	align-items: center;
+    border-bottom: 8px double #F6D785;
+    grid-gap: 45%;
+    flex: 1 1 auto;
+    background-color: lightgoldenrodyellow;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Yrsa;
+}
+header nav a {
+    color: #5B3D1E;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 1.3rem;
+ }
 
 .logo img {
-    width: 10%;
+    width: 130%;
     height: auto;
+    border-radius: 3%;
 }
 
 
@@ -36,19 +58,21 @@ h6 {
     position: relative;
 }
 .hero img {
-    width: 88%;
+    width:80%;
     display: block;
     height: auto;
-    margin-left: 100px;
+    margin-left: 120px;
     border-radius: 5%;
-    
 }
 
 .hero h1 {
-    color: white;
+    color: #a5c1e7;
     background-color: var(--accent1-color);
     position: absolute;
-    left: 100px;
+    left: 245px;
+    width: 60%;
+    height: auto;
+    text-align:center;
 }
 
 article img {
@@ -57,35 +81,77 @@ article img {
 
 article{
     position: absolute;
-    width: 87%;
-    top: 275px;
-    left: 108px;
-    text-align:center;
-    opacity: 95%;
-    background-color: #86b3eea3;
+    width: 950px;
+    top: 160px;
+    left: 130px;
+    text-align: center;
+    background-color: #86b3eeea;
     height: auto;
+    border-radius: 2%;
    
 }
 h2 {
     color: var(--primary-color);
     background-color: var(--accent1-color);
-    opacity: 60%;
-
+}
+figure {
+    margin: 20px;
+    text-align: center;
+}
+figcaption {
+    margin-top:10px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    width: 30%;
+   
+}
+.flex-container img {
+    width: 200px;
 }
 p {
     padding: 0;
     color: var(--accent1-color);
 }
-footer {
-    border-top: 5px dotted #BFBEDD;
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+    padding:15px;
+    border: 3px double #5B3D1E;
+    margin: 1rem;
+    width: 90%;
+    align-items:center;
+}
+.grid-item{
+    align-items: center;
+
+}
+.grid-container img{
+    width:200px;
     padding: 1rem;
 }
+.grid-item {
+    font-size: 16px;
+    font-family: Yrsa;
+    font-style: oblique;
+}
+.grid-item h2 {
+    width:auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 1em;
+}
+footer {
+    border-top: 5px dotted #BFBEDD;
+}
 .socialmedia img {
-    width: 5%;
-}
-.socialmedia a {
+    width:4%;
     text-decoration: none;
+    float:right;
+    padding:3px;
 }
+
 .hero article img{
     width: 15%;
 }
