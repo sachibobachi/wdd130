@@ -10,10 +10,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: Tinos, Yrsa;
-}
+h6{ 
 
+    font-family: Tinos, Yrsa;
+    font-family: 'Tinos';
+}
 .tinos-regular {
     font-family: "Tinos", serif;
     font-weight: 400;
@@ -101,6 +102,7 @@ figure {
 figcaption {
     margin-top:10px;
     text-align: center;
+    color:var(--accent1-color)
 }
 .flex-container{
     display: flex;
