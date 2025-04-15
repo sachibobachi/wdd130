@@ -222,8 +222,8 @@ form {
   button[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color:var(--accent2-color);
-    color: white;
+    background-color:var(--accent1-color);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
     font-size: 15px;
