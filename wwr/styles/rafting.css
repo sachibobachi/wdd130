@@ -10,45 +10,64 @@ h2,
 h3,
 h4,
 h5,
-h6{ 
+h6 {
 
     font-family: Tinos, Yrsa;
     font-family: 'Tinos';
 }
+
 .tinos-regular {
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
     color: var(--accent1-color);
-  }
+}
 
-  .yrsa-secondary {
+.yrsa-secondary {
     font-family: "Yrsa", serif;
     font-weight: 300;
     font-style: normal;
     color: var(--accent1-color);
-  }
-  header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr;
-	align-items: center;
+}
+
+h1 {
+    font-family: Tinos;
+    color: #5B3D1E;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    border: 5px double #F6D785
+}
+
+h3 {
+    font-family: Yrsa;
+    font-size: 30px;
+    color: #5B3D1E
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
     border-bottom: 8px double var(--secondary-color);
     grid-gap: 45%;
     flex: 1 1 auto;
     background-color: lightgoldenrodyellow;
 }
+
 header nav {
     display: flex;
     flex-wrap: wrap;
     font-family: Yrsa;
 }
+
 header nav a {
     color: var(--accent1-color);
-	padding: 15px;
-	text-decoration: none;
-	font-size: 1.3rem;
- }
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
 
 .logo img {
     width: 130%;
@@ -60,8 +79,9 @@ header nav a {
 .hero {
     position: relative;
 }
+
 .hero img {
-    width:80%;
+    width: 80%;
     display: block;
     height: auto;
     margin-left: 120px;
@@ -75,14 +95,14 @@ header nav a {
     left: 245px;
     width: 60%;
     height: auto;
-    text-align:center;
+    text-align: center;
 }
 
 article img {
-    float:right;
+    float: right;
 }
 
-article{
+article {
     position: absolute;
     width: 950px;
     top: 160px;
@@ -91,164 +111,298 @@ article{
     background-color: var(--primary-color);
     height: auto;
     border-radius: 2%;
-   
+
 }
+
 h2 {
     color: var(--accent1-color);
     background-color: var(--primary-color);
     width: auto;
 }
+
 figure {
     margin: 20px;
     text-align: center;
 }
+
 figcaption {
-    margin-top:10px;
+    margin-top: 10px;
     text-align: center;
-    color:var(--accent1-color)
+    color: var(--accent1-color)
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     width: 30%;
-   
+
 }
+
 .flex-container img {
     width: 200px;
 }
+
 p {
     padding: 0;
     color: var(--accent1-color);
     font-weight: 600;
 }
-.grid-container{
+
+.grid-container {
     display: grid;
     grid-template-columns: 400px auto 400px;
-    padding:15px;
+    padding: 15px;
     border: 5px double var(--accent1-color);
     margin: 1rem;
     width: 90%;
-    align-items:center;
+    align-items: center;
 }
-.grid-item{
+
+.grid-item {
     align-items: center;
 
 }
-.grid-container img{
-    width:200px;
+
+.grid-container img {
+    width: 200px;
     padding: 1rem;
 }
+
 .grid-item {
     font-size: 16px;
     font-family: Yrsa;
     font-style: oblique;
 }
+
 .grid-item h2 {
-    width:auto;
+    width: auto;
     text-align: center;
     padding: 10px 10px 10px 10px;
     margin: 1em;
 }
+
 footer {
     border-top: 5px dotted var(--secondary-color);
 }
+
 .socialmedia img {
-    width:4%;
+    width: 4%;
     text-decoration: none;
-    float:right;
-    padding:3px;
+    float: right;
+    padding: 3px;
 }
 
-.hero article img{
+.hero article img {
     width: 15%;
 }
+
 .staff {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: auto;
+    padding: 3px;
     align-items: center;
 }
+
 .staff figcaption {
     text-align: center;
     font-size: larger;
 }
+
 form {
     background-color: var(--secondary-color);
     padding: 20px;
     max-width: 500px;
     border: 1px solid var(--accent1-color);
     border-radius: 8px;
-  }
-  ,contact {
-    border: 4px dashed var(--secondary-color);
-  }
-  
-  h2 {
+}
+
+h2 {
     color: var(--accent1-color);
     text-align: center;
-  }
- 
-  
-  label {
+}
+
+
+label {
     display: block;
     margin-top: 15px;
     font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid var(--accent1-color);
     border-radius: 4px;
     font-size: 14px;
-  }
-  
-  .radio-group,
-  .checkbox-group {
+}
+
+.radio-group,
+.checkbox-group {
     margin-top: 10px;
-  }
-  
-  .radio-group label,
-  .checkbox-group label {
+}
+
+.radio-group label,
+.checkbox-group label {
     font-weight: normal;
     display: inline-block;
     margin-right: 10px;
-  }
-  
-  .radio-group input,
-  .checkbox-group input {
+}
+
+.radio-group input,
+.checkbox-group input {
     margin-right: 5px;
-  }
-  
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color:var(--accent1-color);
+    background-color: var(--accent1-color);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
     font-size: 15px;
     cursor: pointer;
-    font-weight:bolder;
-  }
-  
-  button[type="submit"]:hover {
+    font-weight: bolder;
+}
+
+button[type="submit"]:hover {
     background-color: var(--accent2-color);
-  }
-  h3{
+}
+
+h3 {
     text-decoration: underline double;
-  }
-  table {
+    text-align: center;
+}
+
+table {
     border: 2px solid rgb(140 140 140);
-  }
-  
-  th,
-  td {
+}
+
+th,
+td {
     border: 1px solid rgb(160 160 160);
-  }
+}
+
 .rivers figcaption {
     text-align: left;
 
+}
+
+.homecontainer img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wwr/images/homehero.jpg");
+    max-height: 760px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: contain;
+}
+
+.signup-box {
+    background-color: #ffffff;
+    color: var(--accent1-color);
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 3px solid var(--accent2-color);
+}
+
+h2 {
+    text-align: center;
+    color: var(--accent1-color);
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 2px solid #444;
+    background-color: #fff;
+    color: #000;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: 3px solid var(--accent2-color);
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.homecontainer img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wwr/images/homehero.jpg");
+    max-height: 760px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: contain;
+}
+
+.homecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homecontainer h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    background-color: #f6d885ee;
+    color: #5B3D1E;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.grid-text {
+    background-color: white;
+    border: 3px double #5B3D1E;
+    padding: 20px;
+}
+
+.grid-text img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.review-form {
+    background-color: white;
+    border: 2px solid #90903E;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
 }
